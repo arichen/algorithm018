@@ -1,2 +1,2 @@
-Tips:
-- Focus on learning the best solution, instead of use up all the energy on coming up with your own solution and tire out.
+## Tips:
+- Read and learn the best solution, instead of focusing on reinventing your own wheel.
