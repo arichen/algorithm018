@@ -1,7 +1,8 @@
 ## Tree Traversal
-- Iteration
+- ### Iterations
     - Preorder: append children to the end of stack in reverse order (right -> left)
-        ```
+
+        ```python
         class Solution:
             def preorder(self, root: 'Node') -> List[int]:
                 if not root:
@@ -14,8 +15,10 @@
                     stack += node.children[::-1]
                 return res
         ```
+
     - Postorder: append children to the end in normal order (left -> right), reverse the final output
-        ```
+
+        ```python
         class Solution:
             def postorder(self, root: 'Node') -> List[int]:
                 if not root:
